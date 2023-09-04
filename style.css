@@ -1,0 +1,101 @@
+
+h1{
+    font-size: 63px;
+    color: #303030;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+}
+
+
+.carousel-caption h5{
+    font-size: 80px;
+    color: yellow;
+    text-shadow: 2px 2px 2px black;
+}
+
+.carousel-image {
+    height: 800px; /* Set the desired height for the images */
+}
+
+body{
+    background-color: #eeeeee;
+}
+
+.footer-background{
+    background-color: rgb(204, 199, 199);
+}
+
+@media(max-width:991px){
+    #heading{
+        padding-left: 50px;
+    }
+    #prc{
+        margin-left: 70px;
+        padding-left: 110px;
+    }
+    #quantity{
+        padding-left: 48px;
+    }
+    #produc{
+        padding-left: 40px;
+    }
+    #total{
+        padding-left: 54px;
+    }
+}
+@media(max-width:767px){
+    .mobile{
+        font-size: 10px;
+    }
+    h5{
+        font-size: 14px;
+    }
+    h6{
+        font-size: 9px;
+    }
+    #mobile-font{
+        font-size: 11px;
+    }
+    #prc{
+        font-weight: 700;
+        margin-left: -45px;
+        padding-left: 105px;
+    }
+    #quantity{
+        font-weight: 700;
+        padding-left: 6px;
+    }
+    #produc{
+        font-weight: 700;
+        padding-left: 0px;
+    }
+    #total{
+        font-weight: 700;
+        padding-left: 9px;
+    }
+    #image{
+        width: 60px;
+        height: 60px;
+    }
+    .col{
+        width: 100%;
+    }
+    #zero-pad{
+        padding: 2%;
+        margin-left: 10px;
+    }
+    #footer-font{
+        font-size: 12px;
+    }
+    #heading{
+        padding-top: 15px;
+    }
+}
